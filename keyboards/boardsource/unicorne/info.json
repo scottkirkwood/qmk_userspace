@@ -5,6 +5,7 @@
     "bootloader": "rp2040",
     "bootloader_instructions": "Click the top left key when plugging in (top right for RHS",
     "diode_direction": "COL2ROW",
+    "tags": ["ortho", "split", "rgb"],
     "features": {
         "audio": true,
         "bootmagic": true,
@@ -18,6 +19,10 @@
     },
     "indicators": {
         "caps": "GP24"
+    },
+    "caps_word": {
+      "enabled": true,
+      "double_tap_shift_turns_on": true
     },
     "split": {
         "enabled": true,
@@ -51,9 +56,9 @@
             "alphas_mods": true,
             "band_sat": true,
             "band_val": true,
-            "breathing": true,
-            "gradient_left_right": true,
-            "gradient_up_down": true
+            "solid_reactive_wide": true,
+            "solid_reactive_multiwide": true,
+            "breathing": true
         },
         "max_brightness": 150,
         "split_count": [27, 27],
